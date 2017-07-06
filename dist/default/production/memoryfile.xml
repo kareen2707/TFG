@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/default/production/NODE_FW_clara.X.production.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>269824</length>                 
+      <used>128008</used>                     
+      <free>141816</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>65536</length>                 
+      <used>6664</used>                     
+      <free>58872</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 
