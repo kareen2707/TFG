@@ -1,0 +1,56 @@
+10
+
+dir
+0
+svn+ssh://b105.lsi.die/repo/pfcs/flopez/stack/Microchip_2_stacks/Microchip/TCPIP%20Stack/Demo%20Board%20Files/Ethernet%20PICtail
+svn+ssh://b105.lsi.die/repo/pfcs
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+38bb14a5-29bd-42e4-97c5-673ad1fffccd
+
+Ethernet PICtail Rev 5 Schematic.pdf
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Ethernet PICtail Rev 5 BOM.xls
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+

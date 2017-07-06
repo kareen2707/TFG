@@ -1,0 +1,161 @@
+10
+
+dir
+0
+svn+ssh://b105.lsi.die/repo/pfcs/flopez/stack/Microchip_2_stacks/Microchip/TCPIP%20Stack/Utilities/Source/Microchip%20Ethernet%20Discoverer
+svn+ssh://b105.lsi.die/repo/pfcs
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+38bb14a5-29bd-42e4-97c5-673ad1fffccd
+
+Microchip Ethernet Discoverer.csproj
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Microchip Ethernet Discoverer.suo
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+frmMain.resx
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Microchip Ethernet Discoverer_TemporaryKey.pfx
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Program.cs
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Properties
+dir
+
+
+
+add
+
+frmMain.Designer.cs
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+frmMain.cs
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Microchip Ethernet Discoverer.sln
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Microchip Ethernet Discoverer.csproj.user
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+

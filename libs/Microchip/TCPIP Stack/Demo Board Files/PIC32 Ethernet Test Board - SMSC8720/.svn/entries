@@ -1,0 +1,56 @@
+10
+
+dir
+0
+svn+ssh://b105.lsi.die/repo/pfcs/flopez/stack/Microchip_2_stacks/Microchip/TCPIP%20Stack/Demo%20Board%20Files/PIC32%20Ethernet%20Test%20Board%20-%20SMSC8720
+svn+ssh://b105.lsi.die/repo/pfcs
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+38bb14a5-29bd-42e4-97c5-673ad1fffccd
+
+PIC32 Ethernet Test Board - SMSC8720 Rev B Schematic.pdf
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+PIC32 Ethernet Test Board - SMSC8720 Rev B BOM.xls
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+

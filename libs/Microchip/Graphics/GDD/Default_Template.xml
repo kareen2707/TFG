@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gfx_lib_info version="2.11">
+  <COPY_FILES_FOLDER>
+	.\Microchip\Graphics\GDD\Default_Template
+  </COPY_FILES_FOLDER>
+  <COPY_REFERENCE_FILES>
+    <list>HardwareProfile.h</list>
+    <list>GraphicsConfig.h</list>
+    <list>Main.c</list>
+    <list>Main.h</list>
+  </COPY_REFERENCE_FILES>
+  <GRAPHICS_REFERENCE_FILES>
+     <BoardSupportPackage>
+       <list>Board Support Package\TouchScreen.c</list>
+	   <list>Board Support Package\TouchScreen.h</list>
+	   <list>Board Support Package\EEPROM.c</list>
+	   <list>Board Support Package\EEPROM.h</list>
+	   <list>Board Support Package\Beep.c</list>
+	   <list>Board Support Package\Beep.h</list>
+	   <list>Board Support Package\SST25VF016.c</list>
+	   <list>Board Support Package\SST25VF016.h</list>
+	   <list>Board Support Package\cpld.c</list>
+	   <list>Board Support Package\cpld.h</list>
+     </BoardSupportPackage>
+     <Graphics>
+		<list>Microchip\Graphics\DisplayDriver.c</list>
+		<list>Microchip\Graphics\Drivers\gfxepmp.c</list>
+		<list>Microchip\Graphics\GOL.c</list>
+		<list>Microchip\Graphics\GOLFontDefault.c</list>
+		<list>Microchip\Graphics\Palette.c</list>
+		<list>Microchip\Graphics\Primitive.c</list>
+		<list>Microchip\Include\Graphics\DisplayDriver.h</list>
+		<list>Microchip\Include\Graphics\DisplayDriverInterface.h</list>
+		<list>Microchip\Include\Graphics\GOL.h</list>
+		<list>Microchip\Include\Graphics\Graphics.h</list>
+		<list>Microchip\Include\Graphics\Palette.h</list>
+		<list>Microchip\Include\Graphics\Primitive.h</list>
+		<list>Microchip\Include\Graphics\ScanCodes.h</list>
+     </Graphics>
+     <Common>
+		<list>Microchip\Common\TimeDelay.c</list>
+		<list>Microchip\Include\TimeDelay.h</list>
+		<list>Microchip\Include\GenericTypeDefs.h</list>
+     </Common>
+  </GRAPHICS_REFERENCE_FILES>
+  <INCLUDE_PATHS>
+   	<list>.</list>
+    <list>..\Microchip\Include</list>
+    <list>..\Board Support Package</list>
+  </INCLUDE_PATHS>
+</gfx_lib_info>
+

@@ -1,0 +1,84 @@
+10
+
+dir
+0
+svn+ssh://b105.lsi.die/repo/pfcs/flopez/stack/Microchip_2_stacks/Microchip/TCPIP%20Stack/Demo%20Board%20Files/PICDEM.net%202
+svn+ssh://b105.lsi.die/repo/pfcs
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+38bb14a5-29bd-42e4-97c5-673ad1fffccd
+
+PICDEM.net 2 Rev 4 Schematic.pdf
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+PICDEM.net 2 Rev 6 Schematic.pdf
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+PICDEM.net 2 Rev 4 BOM.xls
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+PICDEM.net 2 Rev 6 BOM.xls
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+

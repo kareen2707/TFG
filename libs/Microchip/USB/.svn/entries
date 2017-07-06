@@ -1,0 +1,266 @@
+10
+
+dir
+0
+svn+ssh://b105.lsi.die/repo/pfcs/flopez/stack/Microchip_2_stacks/Microchip/USB
+svn+ssh://b105.lsi.die/repo/pfcs
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+38bb14a5-29bd-42e4-97c5-673ad1fffccd
+
+MSD Device Driver
+dir
+
+
+
+add
+
+usb_pic32.h
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+USB PIC24.h
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Audio v1 Host Driver
+dir
+
+
+
+add
+
+usb_otg.c
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+USB PIC18.h
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Charger Host Driver
+dir
+
+
+
+add
+
+CDC Device Driver
+dir
+
+
+
+add
+
+Generic Host Driver
+dir
+
+
+
+add
+
+usb_host_local.h
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+usb_device.c
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+MSD Host Driver
+dir
+
+
+
+add
+
+Audio Device Driver
+dir
+
+
+
+add
+
+Printer Host Driver
+dir
+
+
+
+add
+
+CCID Device Driver
+dir
+
+
+
+add
+
+usb_hal_pic24.c
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+HID Device Driver
+dir
+
+
+
+add
+
+CDC Host Driver
+dir
+
+
+
+add
+
+usb_host.c
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+usb_device_local.h
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+Generic Device Driver
+dir
+
+
+
+add
+
+Documentation
+dir
+
+
+
+add
+
+usb_hal_local.h
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+HID Host Driver
+dir
+
+
+
+add
+

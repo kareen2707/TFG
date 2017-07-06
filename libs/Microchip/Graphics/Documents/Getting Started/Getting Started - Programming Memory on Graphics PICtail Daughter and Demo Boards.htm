@@ -1,0 +1,1113 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List
+href="Getting%20Started%20-%20Programming%20Memory%20on%20Graphics%20PICtail%20Daughter%20and%20Demo%20Boards_files/filelist.xml">
+<link rel=Edit-Time-Data
+href="Getting%20Started%20-%20Programming%20Memory%20on%20Graphics%20PICtail%20Daughter%20and%20Demo%20Boards_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Getting Started: Programming Memory on Graphics PICtail Daughter and
+Demo Boards</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>C12109</o:Author>
+  <o:LastAuthor>Microchip</o:LastAuthor>
+  <o:Revision>35</o:Revision>
+  <o:TotalTime>2006</o:TotalTime>
+  <o:Created>2010-10-15T22:34:00Z</o:Created>
+  <o:LastSaved>2010-11-01T19:15:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>1185</o:Words>
+  <o:Characters>6761</o:Characters>
+  <o:Company>Microchip Technology Inc</o:Company>
+  <o:Lines>56</o:Lines>
+  <o:Paragraphs>15</o:Paragraphs>
+  <o:CharactersWithSpaces>7931</o:CharactersWithSpaces>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>90</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-alt:"\FF2D\FF33 \660E\671D";
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-1610612033 1757936891 16 0 131231 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:1627421319 -2147483648 8 0 66047 0;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-1610612033 1757936891 16 0 131231 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:Arial;
+	mso-font-kerning:16.0pt;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:14.0pt;
+	font-family:Arial;
+	font-style:italic;}
+h3
+	{mso-style-link:"Heading 3 Char";
+	mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:13.0pt;
+	font-family:Arial;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:12.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:24.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{mso-style-noshow:yes;
+	mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{mso-style-noshow:yes;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	background:navy;
+	font-size:10.0pt;
+	font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{mso-style-link:"Plain Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-locked:yes;
+	mso-style-link:"Heading 2";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:Arial;
+	mso-ascii-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	mso-bidi-font-family:Arial;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;
+	font-style:italic;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-locked:yes;
+	mso-style-link:"Heading 3";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:Arial;
+	mso-ascii-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	mso-bidi-font-family:Arial;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.PlainTextChar
+	{mso-style-name:"Plain Text Char";
+	mso-style-locked:yes;
+	mso-style-link:"Plain Text";
+	font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+p.element10, li.element10, div.element10
+	{mso-style-name:element10;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"MS Mincho";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 65.95pt 1.0in 65.95pt;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:271790764;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1167366472 617115828 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l0:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1
+	{mso-list-id:881941835;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1066018258 777928078 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-text:"%1\)";
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l1:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2
+	{mso-list-id:1001811254;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1324570430 67698713 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l2:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:1.25in;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;}
+@list l2:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:1228956323;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-2092515760 67698713 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l3:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:1.25in;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;}
+@list l3:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4
+	{mso-list-id:1464737733;
+	mso-list-type:hybrid;
+	mso-list-template-ids:594062476 67698713 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l4:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:1.25in;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;}
+@list l4:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5
+	{mso-list-id:1559826150;
+	mso-list-type:hybrid;
+	mso-list-template-ids:101088638 617115828 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l5:level1
+	{mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l5:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6
+	{mso-list-id:1964800905;
+	mso-list-type:hybrid;
+	mso-list-template-ids:480127210 777928078 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l6:level1
+	{mso-level-text:"%1\)";
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l6:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:1.25in;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;}
+@list l6:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="40962"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<p class=MsoPlainText><span style='font-family:Arial'>Graphics <span
+class=SpellE>PICtail</span>™ Plus boards and PIC24FJ256DA210 Development Boards
+features flash memories. These are useful resources to store images, fonts and
+application data running on the mentioned demos. The following manual describes
+how these memories can be programmed.<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span style='font-family:Arial'>All programming are
+initiated through a PC utility (<b style='mso-bidi-font-weight:normal'>External
+Memory Programmer.exe</b>) provided with the Graphics Library Demos. You can
+find this utility in this path of your Microchip Application Libraries
+installation path:<o:p></o:p></span></p>
+
+<p class=MsoPlainText><b style='mso-bidi-font-weight:normal'><span
+style='font-family:Arial'>..\Installed Directory \Microchip\Graphics\Utilities\External
+Memory Programmer<o:p></o:p></span></b></p>
+
+<p class=MsoPlainText><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span style='font-family:Arial'>The hex files are
+generated by the “Graphics Resource Converter” located in:<o:p></o:p></span></p>
+
+<p class=MsoPlainText><b style='mso-bidi-font-weight:normal'><span
+style='font-family:Arial'>..\ Installed Directory \Microchip
+Solutions\Microchip\Graphics\bin<o:p></o:p></span></b></p>
+
+<p class=MsoPlainText><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span style='font-family:Arial'>Where: <b
+style='mso-bidi-font-weight:normal'>Installed Directory </b>– is the directory
+where Microchip Application Libraries (MAL) is installed (MAL includes the
+installation of the Graphics Library).<o:p></o:p></span></p>
+
+<p class=element10><span style='font-size:10.0pt;font-family:Arial;mso-fareast-font-family:
+"Times New Roman"'>The demo projects that include flash programming are created
+to run on supported Microchip Demo Boards and development hardware.
+Pre-generated hex files are available on the &quot;Precompiled Demos&quot;
+sub-directory found in the demo directory. These hex files are generated using
+the alternative hardware profiles found in the sub-directory named
+&quot;Alternative Configurations&quot;. Use the &quot;<a
+href="Getting%20Started%20-%20Demo%20Compatibility%20Matrix.htm">Demo Compatibility
+Matrix</a>&quot; when running pre-generated hex files appropriate for your
+hardware.&nbsp;<o:p></o:p></span></p>
+
+<p class=element10><span style='font-size:10.0pt;font-family:Arial;mso-fareast-font-family:
+"Times New Roman"'>This programmer allows downloading Intel Hex file into
+memory installed on selected hardware.<span style='mso-spacerun:yes'> 
+</span>The figure below shows the possible combination of your hardware that
+requires programming. Depending on the hardware selected, the programming
+sequence will be the same but the required user interface (such as button
+press) may be different. Please refer to the different configurations below for
+details.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='page-break-after:avoid'><span style='font-family:
+Arial'><img border=0 width=624 height=390 id="_x0000_i1025"
+src="images/Programmer%20Diagram.jpg"></span></p>
+
+<p class=MsoPlainText><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoToc3 style='tab-stops:right dotted 479.6pt'><!--[if supportFields]><span
+style='font-family:Arial'><span style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'> </span>TOC \o &quot;1-3&quot; \h \z \u <span
+style='mso-element:field-separator'></span></span><![endif]--><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc276132317">Configuration
+1: PIC24FJ256DA210 Development Board<span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span> PAGEREF
+_Toc276132317 \h </span><span style='color:windowtext;text-decoration:none;
+text-underline:none'><span style='display:none;mso-hide:screen'><span
+style='mso-element:field-separator'></span></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>2<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003200370036003100330032003300310037000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='mso-fareast-font-family:"MS Mincho";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc3 style='tab-stops:right dotted 479.6pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc276132318">Configuration
+1: Troubleshooting<span style='color:windowtext;display:none;mso-hide:screen;
+text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span> PAGEREF
+_Toc276132318 \h </span><span style='color:windowtext;text-decoration:none;
+text-underline:none'><span style='display:none;mso-hide:screen'><span
+style='mso-element:field-separator'></span></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>3<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003200370036003100330032003300310038000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='mso-fareast-font-family:"MS Mincho";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc3 style='tab-stops:right dotted 479.6pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc276132319">Configuration
+2: Explorer 16<span style='color:windowtext;display:none;mso-hide:screen;
+text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span> PAGEREF
+_Toc276132319 \h </span><span style='color:windowtext;text-decoration:none;
+text-underline:none'><span style='display:none;mso-hide:screen'><span
+style='mso-element:field-separator'></span></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>3<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003200370036003100330032003300310039000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='mso-fareast-font-family:"MS Mincho";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc3 style='tab-stops:right dotted 479.6pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc276132320">Configuration
+2: Troubleshooting<span style='color:windowtext;display:none;mso-hide:screen;
+text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span> PAGEREF
+_Toc276132320 \h </span><span style='color:windowtext;text-decoration:none;
+text-underline:none'><span style='display:none;mso-hide:screen'><span
+style='mso-element:field-separator'></span></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>5<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003200370036003100330032003300320030000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='mso-fareast-font-family:"MS Mincho";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoPlainText><!--[if supportFields]><span style='font-size:12.0pt;
+font-family:Arial'><span style='mso-element:field-end'></span></span><![endif]--><span
+style='font-size:12.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<h3><span style='mso-spacerun:yes'>  </span><a name="config_2"></a><a
+name="_Toc276132317"></a><a name="_Toc274828940"></a><a name="_Toc274902560"><span
+style='mso-bookmark:_Toc274828940'><span style='mso-bookmark:_Toc276132317'><span
+style='mso-bookmark:config_2'>Configuration 1: PIC24FJ256DA210 Development
+Board</span></span></span></a><span style='mso-bookmark:config_2'></span></h3>
+
+<span style='mso-bookmark:config_2'></span>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-family:Arial'>There
+are two flash memories on this board. The following steps sets up the Parallel
+or the SPI flash memory for programming and usage.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.75in;text-indent:-.25in;mso-list:
+l6 level1 lfo2;tab-stops:list .75in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>To use SPI Flash<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l6 level2 lfo2;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>a.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Set jumper
+(JP23) to PMCS2-SPI<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.75in;text-indent:-.25in;mso-list:
+l6 level1 lfo2;tab-stops:list .75in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>To use Parallel
+Flash<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l6 level2 lfo2;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>a.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Set jumper
+(JP23) to PMCS2-PARALLEL<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l6 level2 lfo2;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>b.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Depending on the
+memory range to be used <o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l6 level3 lfo2;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>set jumper
+(JP11) to 1-2 when using 17 PMP address lines (PMP[16:0])<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l6 level3 lfo2;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>set jumper
+(JP11) to 2-3 when using 17 PMP address lines (PMP[17:0])<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.25in;text-indent:.5in'><span
+style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.25in;text-indent:.5in'><span
+style='font-family:Arial'>Note: Firmware must also initialize the EPMP <span
+class=SpellE>SFRs</span> to use the address lines. Please refer to EPMP FRM
+Chapter (DS39730a) for details.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.75in;text-indent:-.25in;mso-list:
+l6 level1 lfo2;tab-stops:list .75in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>3)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>To program<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l6 level2 lfo2;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>a.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Program the
+PIC24FJ256DA210 with the application hex code that contains the programming
+routine.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l6 level2 lfo2;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>b.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Connect the
+PIC24FJ256DA210 Development Board to the PC with a RS232 cable.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l6 level2 lfo2;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>c.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>With the
+PIC24FJ256DA210 Development Board powered up, hold down button S2.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l6 level2 lfo2;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>d.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>While holding
+button S2, push down and release button S4 (MCLR) to erase the data in flash
+memory then release the S2 button. This will put the application in programming
+mode.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='text-indent:.5in;page-break-after:avoid'><img
+width=619 height=422 id="_x0000_i1031"
+src="images/DA210DevBoard%20Flash%20Programming.jpg"></p>
+
+<p class=MsoNormal style='text-indent:.5in'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l6 level2 lfo2;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>e.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Run “External
+Memory Programmer.exe” on the PC side.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.5in;page-break-after:avoid'><span
+style='font-family:Arial'><img width=444 height=292 id="_x0000_i1026"
+src="images/ProgrammingUtility.jpg"></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l6 level2 lfo2;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>f.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Browse the hex
+file that you want to program into the flash memory. Please refer to the
+specific demo manual for the actual hex file to program the flash memory.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l6 level2 lfo2;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>g.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Select the COM
+port connected to the PIC24FJ256DA210 Development Board.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l6 level2 lfo2;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>h.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Press the Start
+button. Programming should commence with the “Status” updating the number of
+transmitted lines.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:.5in'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<h3 style='text-indent:.5in'><a name="_Toc276132318">Configuration 1:
+Troubleshooting</a></h3>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-family:Arial'>In
+some cases, programming will fail due varied reasons.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.75in;text-indent:-.25in;mso-list:
+l5 level1 lfo4;tab-stops:list .75in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Only 1 line is
+transferred and the number of retries reaches the maximum. Check if the jumper
+(JP23) is setting the chip select to the correct flash memory.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.75in;text-indent:-.25in;mso-list:
+l5 level1 lfo4;tab-stops:list .75in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>When programming
+the parallel flash it always fails on a specific line number. Check jumper
+(JP11) if set to use 17 or 18 EPMP address lines.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.75in;text-indent:-.25in;mso-list:
+l5 level1 lfo4;tab-stops:list .75in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>“Programming
+Failed” message always appears. Check if the correct COM port is selected. This
+can be verified by looking at the Windows “Device Manager”. Verify the COM port
+under the “Ports (COM &amp; LPT)”. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:.5in'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<h3><span style='mso-spacerun:yes'>  </span><a name="_Toc276132319"></a><a
+name="_Toc274828941"></a><a name="config_3"></a><a name="_Toc274902561"><span
+style='mso-bookmark:config_3'><span style='mso-bookmark:_Toc274828941'><span
+style='mso-bookmark:_Toc276132319'>Configuration 2: Explorer 16</span></span></span></a></h3>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-family:Arial'>The
+explorer 16 can be connected to either the Graphics LCD Controller <span
+class=SpellE>PICtail</span>™ Plus SSD1926 Board or the Graphics <span
+class=SpellE>PICtail</span>™ Plus Daughter Board.<span
+style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.75in;text-indent:-.25in;mso-list:
+l1 level1 lfo6;tab-stops:list .75in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Graphics LCD
+Controller <span class=SpellE>PICtail</span>™ Plus SSD1926 Board use SPI Flash<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l3 level1 lfo8;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>a.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Set jumper (JP3)
+to FLASH CS-RD1 to select SPI flash.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.5in;page-break-after:avoid'><span
+style='font-family:Arial'><img width=325 height=292 id="_x0000_i1027"
+src="images/GFX3%20Flash%20Programming.jpg"></span></p>
+
+<p class=MsoCaption><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.75in;text-indent:-.25in;mso-list:
+l1 level1 lfo6;tab-stops:list .75in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>2)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Graphics <span
+class=SpellE>PICtail</span>™ Plus Daughter Board use Parallel Flash<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l4 level1 lfo10;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>a.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Set jumper (JP4)
+to FLASH CS-RD1 (the demos are configured to use this setting)<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.25in;text-indent:.5in'><span
+style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.5in;page-break-after:avoid'><img
+width=435 height=285 id="_x0000_i1028"
+src="images/GFX2%20Flash%20Programming.jpg"></p>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.75in;text-indent:-.25in;mso-list:
+l1 level1 lfo6;tab-stops:list .75in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>3)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>To program<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l2 level1 lfo12;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>a.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Program the
+selected PIC device (PIM mounted on the Explorer 6 board) with the application
+hex code that contains the programming routine.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l2 level1 lfo12;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>b.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Connect the
+Explorer 16 Board PC with a RS232 cable.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l2 level1 lfo12;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>c.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Connect the
+Graphics LCD Controller <span class=SpellE>PICtail</span>™ Plus SSD1926 Board
+or Graphics <span class=SpellE>PICtail</span>™ Plus Daughter Board to the
+Explorer 16 Board using the J9 edge connector.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l2 level1 lfo12;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>d.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>With the
+Explorer 16 Board powered up, hold down button S6.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l2 level1 lfo12;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>e.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>While holding
+button S6 push down and release button S1 (MCLR) to erase the data in flash
+memory then release the S1 button. This will put the application in programming
+mode.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.5in;page-break-after:avoid'><span
+style='font-family:Arial'><img width=430 height=361 id="_x0000_i1029"
+src="images/Explorer%2016%20Flash%20Programming.jpg"></span></p>
+
+<p class=MsoNormal style='text-indent:.5in'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l2 level1 lfo12;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>f.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Run “External
+Memory Programmer.exe” on the PC side.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.5in;page-break-after:avoid'><span
+style='font-family:Arial'><img width=444 height=292 id="_x0000_i1030"
+src="images/ProgrammingUtility.jpg"></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l2 level1 lfo12;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>g.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Browse the hex
+file that you want to program into the flash memory. Please refer to the
+specific demo manual for the actual hex file to program the flash memory.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l2 level1 lfo12;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>h.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Select the COM
+port connected to the PIC24FJ256DA210 Development Board.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l2 level1 lfo12;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>i.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Press the Start
+button. Programming should commence with the “Status” updating the number of
+transmitted lines. The utility is set to transfer at the baud rate of 115200. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:.5in;page-break-after:avoid'><span
+style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<h3 style='text-indent:.5in'><a name="_Toc276132320">Configuration 2:
+Troubleshooting</a></h3>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-family:Arial'>In
+some cases, programming will fail due varied reasons.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.75in;text-indent:-.25in;mso-list:
+l0 level1 lfo14;tab-stops:list .75in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Only 1 line is
+transferred and the number of retries reaches the maximum. If using Graphics
+LCD Controller <span class=SpellE>PICtail</span>™ Plus SSD1926 Board, check if
+the jumper (JP3) is using the correct SPI flash memory chip select signal.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.75in;text-indent:-.25in;mso-list:
+l0 level1 lfo14;tab-stops:list .75in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>When using
+Graphics <span class=SpellE>PICtail</span>™ Plus Daughter Board, programming the
+parallel flash it always fails on a specific line number. Check the address
+lines of the parallel flash. One or more address lines may not be connected to
+the parallel flash properly.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.75in;text-indent:-.25in;mso-list:
+l0 level1 lfo14;tab-stops:list .75in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>“Programming
+Failed” message always appears. Check if the correct COM port is selected. This
+can be verified by looking at the Windows “Device Manager”. Verify the COM port
+under the “Ports (COM &amp; LPT)”. <o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

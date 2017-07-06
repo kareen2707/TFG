@@ -1,0 +1,961 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List
+href="Getting%20Started%20-%20Configuring%20the%20Hardware%20Common_files/filelist.xml">
+<link rel=Edit-Time-Data
+href="Getting%20Started%20-%20Configuring%20the%20Hardware%20Common_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Getting Started: Configuring the Hardware </title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>C12109</o:Author>
+  <o:LastAuthor>Microchip</o:LastAuthor>
+  <o:Revision>21</o:Revision>
+  <o:TotalTime>1802</o:TotalTime>
+  <o:Created>2010-10-15T21:06:00Z</o:Created>
+  <o:LastSaved>2010-11-01T23:27:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>966</o:Words>
+  <o:Characters>5511</o:Characters>
+  <o:Company>Microchip Technology Inc</o:Company>
+  <o:Lines>45</o:Lines>
+  <o:Paragraphs>12</o:Paragraphs>
+  <o:CharactersWithSpaces>6465</o:CharactersWithSpaces>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>90</w:Zoom>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-alt:"\FF2D\FF33 \660E\671D";
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-1610612033 1757936891 16 0 131231 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:1627421319 -2147483648 8 0 66047 0;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;
+	mso-font-charset:128;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-1610612033 1757936891 16 0 131231 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:Arial;
+	mso-font-kerning:16.0pt;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:14.0pt;
+	font-family:Arial;
+	font-style:italic;}
+h3
+	{mso-style-link:"Heading 3 Char";
+	mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:13.0pt;
+	font-family:Arial;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:12.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:24.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{mso-style-noshow:yes;
+	mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{mso-style-noshow:yes;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	background:navy;
+	font-size:10.0pt;
+	font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{mso-style-link:"Plain Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-locked:yes;
+	mso-style-link:"Heading 2";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:Arial;
+	mso-ascii-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	mso-bidi-font-family:Arial;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;
+	font-style:italic;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-locked:yes;
+	mso-style-link:"Heading 3";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:Arial;
+	mso-ascii-font-family:Arial;
+	mso-hansi-font-family:Arial;
+	mso-bidi-font-family:Arial;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;
+	font-weight:bold;}
+span.PlainTextChar
+	{mso-style-name:"Plain Text Char";
+	mso-style-locked:yes;
+	mso-style-link:"Plain Text";
+	font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;
+	mso-bidi-language:AR-SA;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 65.95pt 1.0in 65.95pt;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:164059012;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1256096880 -133398414 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-number-format:alpha-upper;
+	mso-level-tab-stop:1.25in;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;}
+@list l0:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1
+	{mso-list-id:242224744;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1532090264 -2037086830 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l1:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:1.25in;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;}
+@list l1:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2
+	{mso-list-id:582956583;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1980422668 67698715 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l2:level1
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:right;
+	margin-left:1.5in;
+	text-indent:-9.0pt;}
+@list l2:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:1183712330;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1948813370 -133398414 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l3:level1
+	{mso-level-number-format:alpha-upper;
+	mso-level-tab-stop:1.25in;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;}
+@list l3:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4
+	{mso-list-id:1964800905;
+	mso-list-type:hybrid;
+	mso-list-template-ids:524158938 777928078 334428008 -133398414 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l4:level1
+	{mso-level-text:"%1\)";
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l4:level2
+	{mso-level-number-format:alpha-upper;
+	mso-level-tab-stop:.75in;
+	mso-level-number-position:left;
+	margin-left:.75in;
+	text-indent:-.25in;}
+@list l4:level3
+	{mso-level-number-format:alpha-upper;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5
+	{mso-list-id:2028094483;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1748630598 67698713 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l5:level1
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:1.25in;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;}
+@list l5:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l5:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="36866"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<p class=MsoPlainText><span style='font-family:Arial'>This section describes
+how to set up the various configurations of the hardware to run a demo.<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoToc3 style='tab-stops:right dotted 479.6pt'><!--[if supportFields]><span
+style='font-family:Arial'><span style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'> </span>TOC \o &quot;1-3&quot; \h \z \u <span
+style='mso-element:field-separator'></span></span><![endif]--><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc276132269">Configuration
+1: PIC24FJ256DA210 Development Board<span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span> PAGEREF _Toc276132269
+\h </span><span style='color:windowtext;text-decoration:none;text-underline:
+none'><span style='display:none;mso-hide:screen'><span style='mso-element:field-separator'></span></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>1<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003200370036003100330032003200360039000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='mso-fareast-font-family:"MS Mincho";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc3 style='tab-stops:right dotted 479.6pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc276132270">Configuration
+2: Explorer 16<span style='color:windowtext;display:none;mso-hide:screen;
+text-decoration:none;text-underline:none'><span style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span> PAGEREF
+_Toc276132270 \h </span><span style='color:windowtext;text-decoration:none;
+text-underline:none'><span style='display:none;mso-hide:screen'><span
+style='mso-element:field-separator'></span></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>2<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003200370036003100330032003200370030000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='mso-fareast-font-family:"MS Mincho";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc3 style='tab-stops:right dotted 479.6pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc276132271">Configuration
+3: Graphics LCD Controller PICtail™ Plus SSD1926 Board with PIC32 Starter Kits<span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-tab-count:1'>  </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span> PAGEREF _Toc276132271
+\h </span><span style='color:windowtext;text-decoration:none;text-underline:
+none'><span style='display:none;mso-hide:screen'><span style='mso-element:field-separator'></span></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>5<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003200370036003100330032003200370031000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='mso-fareast-font-family:"MS Mincho";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoToc3 style='tab-stops:right dotted 479.6pt'><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc276132272">Configuration
+4: Multimedia Expansion Board<span style='color:windowtext;display:none;
+mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-tab-count:1 dotted'>. </span></span><!--[if supportFields]><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'><span style='mso-element:field-begin'></span> PAGEREF
+_Toc276132272 \h </span><span style='color:windowtext;text-decoration:none;
+text-underline:none'><span style='display:none;mso-hide:screen'><span
+style='mso-element:field-separator'></span></span></span><![endif]--><span
+style='color:windowtext;display:none;mso-hide:screen;text-decoration:none;
+text-underline:none'>6<!--[if gte mso 9]><xml>
+ <w:data>08D0C9EA79F9BACE118C8200AA004BA90B02000000080000000E0000005F0054006F0063003200370036003100330032003200370032000000</w:data>
+</xml><![endif]--></span><!--[if supportFields]><span style='color:windowtext;
+display:none;mso-hide:screen;text-decoration:none;text-underline:none'><span
+style='mso-element:field-end'></span></span><![endif]--></a></span></span><span
+style='mso-fareast-font-family:"MS Mincho";mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoPlainText><!--[if supportFields]><span style='font-size:12.0pt;
+font-family:Arial'><span style='mso-element:field-end'></span></span><![endif]--><span
+style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<h3><span style='mso-spacerun:yes'>  </span><a name="config_2"></a><a
+name="_Toc274828940"></a><a name="_Toc274902560"></a><a name="_Toc276132269"><span
+style='mso-bookmark:_Toc274902560'><span style='mso-bookmark:_Toc274828940'><span
+style='mso-bookmark:config_2'>Configuration 1: PIC24FJ256DA210 Development
+Board</span></span></span></a><span style='mso-bookmark:config_2'></span></h3>
+
+<span style='mso-bookmark:config_2'></span>
+
+<p class=MsoPlainText style='margin-left:.75in;text-indent:-.25in;mso-list:
+l4 level1 lfo2;tab-stops:list .75in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>1)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Before attaching
+the Display Boards to the PIC24FJ256DA210 Development Board, make sure that the
+jumpers on the development board are set to the default positions as seen in
+the image below.<span style='mso-spacerun:yes'>  </span>Failure to so will
+result in some features and functionalities of the demo to fail.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l4 level3 lfo2;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>A.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>JP8 – Install
+jumper<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l4 level3 lfo2;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>B.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>JP9, JP10, JP11
+– Install jumper to pins 1-2<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l4 level3 lfo2;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>C.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>JP12 – Install
+jumper to pins 2-4<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l4 level3 lfo2;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>D.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial'>JP13 – Install jumper to pins RG8-S1<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l4 level3 lfo2;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>E.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>JP14 – Install
+jumper to pins RE9-S2<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l4 level3 lfo2;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>F.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>JP15<span
+style='mso-spacerun:yes'>  </span>– Install jumper to pins RB5-POT<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l4 level3 lfo2;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>G.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial'>JP16 – Install jumper to TX-USART_TX<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l4 level3 lfo2;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>H.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>JP17 – Install
+jumper to RX-USART_RX<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-.25in;mso-list:
+l4 level3 lfo2;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>I.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>JP23 – Install
+jumper to PMCS2-SPI<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:.5in;page-break-after:avoid'><img
+width=619 height=422 id="_x0000_i1025" src="images/DA210DevBoard%20Common.jpg"></p>
+
+<p class=MsoNormal style='text-indent:.5in'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-family:Arial'>2)
+Connect one of the Display Boards to the PIC24FJ256DA210 Development Board
+using the Display Connector V1.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:.5in;page-break-after:avoid'><img
+width=586 height=336 id="_x0000_i1036" src="images/DA210DevBoardConnect.jpg"></p>
+
+<h3><span style='mso-spacerun:yes'>  </span><a name="_Toc274828941"></a><a
+name="config_3"></a><a name="_Toc274902561"></a><a name="_Toc276132270"><span
+style='mso-bookmark:_Toc274902561'><span style='mso-bookmark:config_3'><span
+style='mso-bookmark:_Toc274828941'>Configuration 2: Explorer 16</span></span></span></a></h3>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-family:Arial'>1)
+Before attaching the PIM to the Explorer 16 board, insure that the processor
+selector switch (S2) is in the “PIM” position as seen in the image below. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:.5in;page-break-after:avoid'><img
+width=473 height=356 id="_x0000_i1026"
+src="images/Explorer%2016%20(processor%20switch).JPG"></p>
+
+<p class=MsoPlainText><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText style='text-indent:.5in'><span style='font-family:Arial'>2)
+Short the J7 jumper to the “PIC24” setting<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:.5in;page-break-after:avoid'><img
+width=402 height=334 id="_x0000_i1027"
+src="images/Explorer%2016%20(programming%20jumper).JPG"></p>
+
+<p class=MsoPlainText><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-family:Arial'>3)
+Before connecting the PIM to the Explorer 16 board, remove all attached cables
+from both boards.<span style='mso-spacerun:yes'>  </span>Connect the PIM to the
+Explorer 16 board.<span style='mso-spacerun:yes'>  </span>Be careful when connecting
+the boards to insure that no pins are bent or damaged during the process.<span
+style='mso-spacerun:yes'>  </span>Also insure that the PIM is not shifted in
+any direction and that all of the headers are properly aligned.<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-family:Arial'>4)
+When using the Graphics LCD Controller PICtail™ Plus SSD1926 Board.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l0 level1 lfo4;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>A.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Set the SPI
+Flash chip select signal to use RD1 by setting JP3 of the Graphics LCD
+Controller PICtail™ Plus SSD1926 Board to RD1-FLASH CS. Leave JP1 open.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l0 level1 lfo4;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>B.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Set up the PMP
+interface:<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-1.5in;mso-text-indent-alt:
+-9.0pt;mso-list:l5 level3 lfo6;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>i.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>When running the
+demo in the 8-bit PMP interface mode set JP2 of the Graphics LCD Controller
+PICtail™ Plus SSD1926 Board to PARALLEL-8 Bit<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-1.5in;mso-text-indent-alt:
+-9.0pt;mso-list:l5 level3 lfo6;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>ii.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>When running the
+demo in the 16-bit PMP interface mode set JP2 of the Graphics LCD Controller
+PICtail™ Plus SSD1926 Board to PARALLEL-16 Bit<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.0in;page-break-after:avoid'><span
+style='font-family:Arial'><img width=282 height=234 id="_x0000_i1028"
+src="images/Set%20Up%20GFX3.jpg"></span></p>
+
+<p class=MsoPlainText><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l0 level1 lfo4;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>C.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Using the J9
+edge connector of the Explorer 16 board, connect the Graphics LCD Controller
+PICtail™ Plus SSD1926 Board. <o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.0in'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.0in;page-break-after:avoid'><img
+width=433 height=228 id="_x0000_i1029"
+src="images/Explorer%2016%20GFX3%20Connect.jpg"></p>
+
+<p class=MsoCaption><o:p>&nbsp;</o:p></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l0 level1 lfo4;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>D.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-family:Arial'>Connect one of the Display Boards to the Graphics LCD
+Controller PICtail™ Plus SSD1926 Board using the Display Connector V1.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.0in;page-break-after:avoid'><img
+width=632 height=423 id="_x0000_i1030" src="images/GFX3Connect.jpg"></p>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-family:Arial'>5)
+When using the Graphics PICtail Plus Daughter Board: <o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.5in;text-indent:.5in'><span
+style='font-family:Arial'>Connect the Graphics PICtail Plus Daughter Board to
+the Explorer 16 Board using the J9 edge connector of the Explorer 16 board.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.5in;page-break-after:avoid'><span
+style='font-family:Arial'><img width=511 height=228 id="_x0000_i1031"
+src="images/Explorer%2016%20GFX2%20Connect.jpg"></span></p>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<h3 style='text-indent:.5in'><a name="config_6"></a><a name="_Toc274902562"></a><a
+name="_Toc276132271"></a><a name="_Toc207767013"></a><a name="_Toc274828942"><span
+style='mso-bookmark:_Toc207767013'><span style='mso-bookmark:_Toc276132271'><span
+style='mso-bookmark:_Toc274902562'><span style='mso-bookmark:config_6'>Configuration
+3: Graphics LCD Controller PICtail™ Plus SSD1926 </span></span></span></span></a><span
+style='mso-bookmark:_Toc276132271'><span style='mso-bookmark:_Toc274902562'><span
+style='mso-bookmark:config_6'>Board with PIC32 Starter Kits</span></span></span><span
+style='mso-bookmark:config_6'></span></h3>
+
+<span style='mso-bookmark:config_6'></span>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-family:Arial'>1)
+Using the Starter Kit Connector (J3), connect the PIC32 Starter Kit to the
+Graphics LCD Controller PICtail™ Plus SSD1926 Board.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:.5in;page-break-after:avoid'><img
+width=549 height=405 id="_x0000_i1032"
+src="images/GFX3%20Starter%20Kit%20Connect.jpg"></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-family:Arial'>2)
+Set up Graphics LCD Controller PICtail™ Plus SSD1926 Board.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l3 level1 lfo8;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>A.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Set the SPI
+Flash chip select signal to use RD1 by setting JP3 of the Graphics LCD
+Controller PICtail™ Plus SSD1926 Board to RD1-FLASH CS. Leave JP1 open.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.25in;text-indent:-.25in;mso-list:
+l3 level1 lfo8;tab-stops:list 1.25in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'>B.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>Set up the PMP
+interface:<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-1.5in;mso-text-indent-alt:
+-9.0pt;mso-list:l2 level1 lfo10;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>i.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>When running the
+demo in the 8-bit PMP interface mode set JP2 of the Graphics LCD Controller
+PICtail™ Plus SSD1926 Board to PARALLEL-8 Bit<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:1.5in;text-indent:-1.5in;mso-text-indent-alt:
+-9.0pt;mso-list:l2 level1 lfo10;tab-stops:list 1.5in'><![if !supportLists]><span
+style='font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:
+Ignore'><span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>ii.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-family:Arial'>When running the
+demo in the 16-bit PMP interface mode set JP2 of the Graphics LCD Controller
+PICtail™ Plus SSD1926 Board to PARALLEL-16 Bit<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.5in;page-break-after:avoid'><span
+style='font-family:Arial'><img width=282 height=235 id="_x0000_i1033"
+src="images/Set%20Up%20GFX3.jpg"></span></p>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-family:Arial'>3)
+Connect one of the Display Boards to the Graphics LCD Controller PICtail™ Plus
+SSD1926 Board using the Display Connector V1.<o:p></o:p></span></p>
+
+<p class=MsoPlainText style='margin-left:.5in;page-break-after:avoid'><img
+width=632 height=423 id="_x0000_i1034" src="images/GFX3Connect.jpg"></p>
+
+<p class=MsoPlainText style='margin-left:.5in'><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<h3 style='text-indent:.5in'><a name="_Toc274902563"></a><a name="_Toc276132272"><span
+style='mso-bookmark:_Toc274902563'>Configuration 4: Multimedia Expansion Board</span></a></h3>
+
+<p class=MsoNormal style='margin-left:.5in'><span style='font-size:10.0pt;
+font-family:Arial'>1) Using the Starter Kit Connector (J3) located on the
+underside of the Multimedia Expansion Board, connect one of the PIC32 Starter
+Kits to the Multimedia Expansion Board.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:.5in;page-break-after:avoid'><img
+width=548 height=387 id="_x0000_i1035"
+src="images/MEB%20Starter%20Kit%20Connect.jpg"></p>
+
+<p class=MsoPlainText style='margin-left:.5in;page-break-after:avoid'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='margin-left:.75in;text-indent:-.25in;mso-list:l4 level1 lfo2;
+tab-stops:list .75in'><![if !supportLists]><span style='font-size:10.0pt;
+font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:Ignore'>1)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:10.0pt;font-family:Arial'>Power up the Multimedia Expansion
+Board <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:1.25in;text-indent:-.25in;mso-list:l1 level1 lfo12;
+tab-stops:list 1.25in'><![if !supportLists]><span style='font-size:10.0pt;
+font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:Ignore'>a.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:10.0pt;font-family:Arial'>using a 9V power supply using the J1
+connector <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:1.25in;text-indent:-.25in;mso-list:l1 level1 lfo12;
+tab-stops:list 1.25in'><![if !supportLists]><span style='font-size:10.0pt;
+font-family:Arial;mso-fareast-font-family:Arial'><span style='mso-list:Ignore'>b.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:10.0pt;font-family:Arial'>Or through the USB connector of the
+Starter Kit used.<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+10
+
+dir
+0
+svn+ssh://b105.lsi.die/repo/pfcs/flopez/stack/Microchip_2_stacks/Microchip/TCPIP%20Stack/Utilities/Source
+svn+ssh://b105.lsi.die/repo/pfcs
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+38bb14a5-29bd-42e4-97c5-673ad1fffccd
+
+MCHPDetect
+dir
+
+
+
+add
+
+Microchip Ethernet Discoverer
+dir
+
+
+
+add
+
+Microchip TCPIP Discoverer - Java
+dir
+
+
+
+add
+
+MPFS21
+dir
+
+
+
+add
+
+MPFSlib
+dir
+
+
+
+add
+

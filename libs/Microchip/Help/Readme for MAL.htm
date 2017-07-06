@@ -1,0 +1,1700 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+xmlns:oa="urn:schemas-microsoft-com:office:activation"
+xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="Readme%20for%20MAL_files/filelist.xml">
+<title>Release Notes for Microchip Application Libraries (MAL) v2010-04-28</title>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="country-region"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="place"/>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Microchip</o:Author>
+  <o:LastAuthor>Microchip</o:LastAuthor>
+  <o:Revision>21</o:Revision>
+  <o:TotalTime>21</o:TotalTime>
+  <o:Created>2010-08-06T23:40:00Z</o:Created>
+  <o:LastSaved>2010-11-04T21:21:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>1131</o:Words>
+  <o:Characters>6453</o:Characters>
+  <o:Company>Microchip Technology Inc</o:Company>
+  <o:Lines>53</o:Lines>
+  <o:Paragraphs>15</o:Paragraphs>
+  <o:CharactersWithSpaces>7569</o:CharactersWithSpaces>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>70</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Batang;
+	panose-1:2 3 6 0 0 1 1 1 1 1;
+	mso-font-alt:¹ÙÅÁ;
+	mso-font-charset:129;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1342176593 1775729915 48 0 524447 0;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:ËÎÌå;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+@font-face
+	{font-family:"\@SimSun";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+@font-face
+	{font-family:"\@Batang";
+	panose-1:2 3 6 0 0 1 1 1 1 1;
+	mso-font-charset:129;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1342176593 1775729915 48 0 524447 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:Batang;
+	mso-fareast-language:KO;}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:Arial;
+	mso-font-kerning:16.0pt;
+	mso-fareast-language:KO;}
+h2
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:14.0pt;
+	font-family:Arial;
+	mso-fareast-language:KO;
+	font-style:italic;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:Batang;
+	mso-fareast-language:KO;
+	font-weight:bold;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-next:Normal;
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:12.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:Batang;
+	mso-fareast-language:KO;
+	font-style:italic;}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:24.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:Batang;
+	mso-fareast-language:KO;}
+p.MsoToc4, li.MsoToc4, div.MsoToc4
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:Batang;
+	mso-fareast-language:KO;}
+p.MsoToc5, li.MsoToc5, div.MsoToc5
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:48.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:Batang;
+	mso-fareast-language:KO;}
+p.MsoToc6, li.MsoToc6, div.MsoToc6
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:60.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:Batang;
+	mso-fareast-language:KO;}
+p.MsoToc7, li.MsoToc7, div.MsoToc7
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:Batang;
+	mso-fareast-language:KO;}
+p.MsoToc8, li.MsoToc8, div.MsoToc8
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:84.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:Batang;
+	mso-fareast-language:KO;}
+p.MsoToc9, li.MsoToc9, div.MsoToc9
+	{mso-style-update:auto;
+	mso-style-noshow:yes;
+	mso-style-next:Normal;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:96.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:Batang;
+	mso-fareast-language:KO;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:421344032;
+	mso-list-template-ids:121663056;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1
+	{mso-list-id:454298624;
+	mso-list-template-ids:639776884;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l1:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2
+	{mso-list-id:773289434;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-568176652 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3
+	{mso-list-id:1069965198;
+	mso-list-template-ids:399020712;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4
+	{mso-list-id:1311590405;
+	mso-list-template-ids:1659133976;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l4:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l4:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5
+	{mso-list-id:1509365787;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1920011968 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l5:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l5:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6
+	{mso-list-id:1833718773;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-396724210 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l6:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l6:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7
+	{mso-list-id:1868981651;
+	mso-list-type:hybrid;
+	mso-list-template-ids:2017746394 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l7:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l7:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l7:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l7:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+table.MsoTableGrid
+	{mso-style-name:"Table Grid";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:SimSun;
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="9218"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-family:Arial'>Release Notes for Microchip Application Libraries
+(MAL) v2010-10-19<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>Microchip Technology Inc.
+2010<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'>October 19, 2010<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+style='font-family:Arial'>Table of Contents<o:p></o:p></span></b></p>
+
+<p class=MsoToc1 style='tab-stops:right 431.5pt'><!--[if supportFields]><span
+style='font-family:Arial;text-transform:uppercase;font-weight:normal'><span
+style='mso-element:field-begin'></span><span
+style='mso-spacerun:yes'> </span>TOC \o &quot;1-1&quot; \n \p &quot; &quot; \h
+\z \u <span style='mso-element:field-separator'></span></span><![endif]--><span
+class=MsoHyperlink><span style='mso-no-proof:yes'><a href="#_Toc273011669"><span
+style='mso-fareast-language:EN-US'>1. What is Microchip Application Libraries
+(MAL)?</span></a></span></span><span style='font-size:12.0pt;mso-fareast-font-family:
+"Times New Roman";mso-fareast-language:EN-US;font-weight:normal;mso-no-proof:
+yes'><o:p></o:p></span></p>
+
+<p class=MsoToc1 style='tab-stops:right 431.5pt'><span class=MsoHyperlink><span
+style='mso-no-proof:yes'><a href="#_Toc273011670">2. Installing/Uninstalling
+MAL</a></span></span><span style='font-size:12.0pt;mso-fareast-font-family:
+"Times New Roman";mso-fareast-language:EN-US;font-weight:normal;mso-no-proof:
+yes'><o:p></o:p></span></p>
+
+<p class=MsoToc1 style='tab-stops:right 431.5pt'><span class=MsoHyperlink><span
+style='mso-no-proof:yes'><a href="#_Toc273011671">3. What’s new/changed in
+v2010-10-19</a></span></span><span style='font-size:12.0pt;mso-fareast-font-family:
+"Times New Roman";mso-fareast-language:EN-US;font-weight:normal;mso-no-proof:
+yes'><o:p></o:p></span></p>
+
+<p class=MsoToc1 style='tab-stops:right 431.5pt'><span class=MsoHyperlink><span
+style='mso-no-proof:yes'><a href="#_Toc273011672">4. Customer Support</a></span></span><span
+style='font-size:12.0pt;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+EN-US;font-weight:normal;mso-no-proof:yes'><o:p></o:p></span></p>
+
+<p class=MsoNormal><!--[if supportFields]><b><span style='font-size:10.0pt;
+font-family:Arial;text-transform:uppercase'><span style='mso-element:field-end'></span></span></b><![endif]--><span
+style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<h1><a name="_Toc273011669"><span style='mso-fareast-language:EN-US'>1. What is
+Microchip Application Libraries (MAL)?</span></a><span style='mso-fareast-language:
+EN-US'><o:p></o:p></span></h1>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial'>MAL is a collection of Microchip firmware libraries
+and demo projects. Not all firmware libraries and demo projects from Microchip
+are distributed with MAL; rather, MAL includes a few specific libraries that
+tend to be used together.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial'>By distributing libraries that are used often
+together, Microchip can provide example projects that integrate the use of
+multiple libraries.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial'>Some example projects that use multiple libraries
+are:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial'>Graphics <span class=SpellE>MultiApp</span> Demo<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial'>PIC18F Starter Kit 1<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial'>PIC24F Starter Kit 1<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial'>PIC24H Starter Kit 1<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial'>TCPIP MDD Demo App<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial'>USB Host – Printer – Print Screen Demo<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial'>USB Host – Printer – Simple Full Sheet Demo<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=FR style='font-family:Arial;mso-ansi-language:FR'>USB Host – Printer –
+Simple POS <span class=SpellE>Demo</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+lang=FR style='font-family:Arial;mso-ansi-language:FR'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial'>MAL is currently being distributed mainly in the source
+code form to provide the maximum flexibility for end designers to customize
+firmware to fit his/her applications.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<h1><a name="_Toc273011670">2. Installing/Uninstalling MAL</a></h1>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+EN-US'>To obtain the latest version of MAL, you can download it from the
+Microchip web site at <a href="http://www.microchip.com/MAL">www.microchip.com/MAL</a>.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+EN-US'>Once the MAL package is downloaded, first unzip the downloaded zip file
+and run the setup executable.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+EN-US'>Currently, MAL does not provide an uninstaller. To uninstall, simply
+delete the installation folder and the short cut menu folder. No registry edits
+were made during the installation.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+EN-US'>Some users may need to install multiple instances of MAL; this can be
+done simply by selecting a different installation path and shortcut menu
+folder.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+EN-US'>When upgrading from a previous MAL version, it is recommended that users
+install the newer MAL to a different installation path, and then consult each
+individual library release notes for changes that may impact application
+project. This method is safer than just overwriting the previous installation.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<h1><a name="_Toc273011671">3. What’s new/changed in v2010-10-19</a></h1>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+EN-US'>For a full list of changes, read each individual library’s release notes
+after installation.<span style='mso-spacerun:yes'>  </span>This section
+provides only a summary of key changes:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><b
+style='mso-bidi-font-weight:normal'><span style='font-family:Arial;mso-fareast-font-family:
+"Times New Roman";mso-fareast-language:EN-US'>Key Summary:<o:p></o:p></span></b></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width=604
+ style='width:453.0pt;border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:480;mso-padding-alt:0in 5.4pt 0in 5.4pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=127 rowspan=2 style='width:95.6pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;background:#CCFFFF;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial;
+  mso-fareast-font-family:SimSun'>Library<o:p></o:p></span></b></p>
+  </td>
+  <td width=73 rowspan=2 style='width:54.85pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;background:#CCFFCC;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial;
+  mso-fareast-font-family:SimSun'>Current<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial;
+  mso-fareast-font-family:SimSun'>Version<o:p></o:p></span></b></p>
+  </td>
+  <td width=73 rowspan=2 style='width:54.85pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;background:silver;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial;
+  mso-fareast-font-family:SimSun'>Previous<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial;
+  mso-fareast-font-family:SimSun'>Version<o:p></o:p></span></b></p>
+  </td>
+  <td width=330 colspan=5 valign=top style='width:247.7pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;background:#FFFF99;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial;
+  mso-fareast-font-family:SimSun'>PIC Family Supported<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=69 valign=top style='width:52.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#FFFF99;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial;
+  mso-fareast-font-family:SimSun'>PIC18F<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial;
+  mso-fareast-font-family:SimSun'>(8-bit)<o:p></o:p></span></b></p>
+  </td>
+  <td width=69 valign=top style='width:51.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#FFFF99;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial;
+  mso-fareast-font-family:SimSun'>PIC24F<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial;
+  mso-fareast-font-family:SimSun'>(16-bit)<o:p></o:p></span></b></p>
+  </td>
+  <td width=71 valign=top style='width:53.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#FFFF99;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial;
+  mso-fareast-font-family:SimSun'>PIC24H<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial;
+  mso-fareast-font-family:SimSun'>(16-bit)<o:p></o:p></span></b></p>
+  </td>
+  <td width=61 valign=top style='width:45.75pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#FFFF99;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial;
+  mso-fareast-font-family:SimSun'>dsPIC<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial;
+  mso-fareast-font-family:SimSun'>(16-bit)<o:p></o:p></span></b></p>
+  </td>
+  <td width=61 valign=top style='width:45.4pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#FFFF99;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial;
+  mso-fareast-font-family:SimSun'>PIC32<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-family:Arial;
+  mso-fareast-font-family:SimSun'>(32-bit)<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=127 style='width:95.6pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#CCFFFF;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'><a
+  href="#_3.1_MCHPFSUSB_Framework">MCHPFSUSB Framework</a><o:p></o:p></span></p>
+  </td>
+  <td width=73 style='width:54.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#CCFFCC;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>2.8<o:p></o:p></span></p>
+  </td>
+  <td width=73 style='width:54.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:silver;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>2.7a<o:p></o:p></span></p>
+  </td>
+  <td width=69 style='width:52.0pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=69 style='width:51.5pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=71 style='width:53.05pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=61 style='width:45.75pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=61 style='width:45.4pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=127 style='width:95.6pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#CCFFFF;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'><a
+  href="#_3.2_Graphics_Library">Graphics Library</a><o:p></o:p></span></p>
+  </td>
+  <td width=73 style='width:54.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#CCFFCC;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>2.11<o:p></o:p></span></p>
+  </td>
+  <td width=73 style='width:54.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:silver;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>2.10<o:p></o:p></span></p>
+  </td>
+  <td width=69 style='width:52.0pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=69 style='width:51.5pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=71 style='width:53.05pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=61 style='width:45.75pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=61 style='width:45.4pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td width=127 style='width:95.6pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#CCFFFF;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'><a
+  href="#_3.3_MDD_Library">Memory Disk Drive (MDD)</a><o:p></o:p></span></p>
+  </td>
+  <td width=73 style='width:54.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#CCFFCC;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>1.2.7<o:p></o:p></span></p>
+  </td>
+  <td width=73 style='width:54.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:silver;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>1.2.6<o:p></o:p></span></p>
+  </td>
+  <td width=69 style='width:52.0pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=69 style='width:51.5pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=71 style='width:53.05pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=61 style='width:45.75pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=61 style='width:45.4pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td width=127 style='width:95.6pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#CCFFFF;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'><a
+  href="#_3.4_TCP/IP_Stack">TCP/IP Stack</a><o:p></o:p></span></p>
+  </td>
+  <td width=73 style='width:54.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#CCFFCC;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>5.31<o:p></o:p></span></p>
+  </td>
+  <td width=73 style='width:54.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:silver;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>5.25<o:p></o:p></span></p>
+  </td>
+  <td width=69 style='width:52.0pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=69 style='width:51.5pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=71 style='width:53.05pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=61 style='width:45.75pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=61 style='width:45.4pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td width=127 style='width:95.6pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#CCFFFF;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'><a
+  href="#_3.5_mTouchCap_Library"><span class=SpellE>mTouchCap</span> Library</a><o:p></o:p></span></p>
+  </td>
+  <td width=73 style='width:54.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#CCFFCC;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>1.21<o:p></o:p></span></p>
+  </td>
+  <td width=73 style='width:54.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:silver;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>1.20<o:p></o:p></span></p>
+  </td>
+  <td width=69 style='width:52.0pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=69 style='width:51.5pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=71 style='width:53.05pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=61 style='width:45.75pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=61 style='width:45.4pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td width=127 style='width:95.6pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#CCFFFF;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'><a
+  href="#_3.6_Smart_Card">Smart Card Library</a><o:p></o:p></span></p>
+  </td>
+  <td width=73 style='width:54.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#CCFFCC;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>1.02<o:p></o:p></span></p>
+  </td>
+  <td width=73 style='width:54.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:silver;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>1.01<o:p></o:p></span></p>
+  </td>
+  <td width=69 style='width:52.0pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=69 style='width:51.5pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=71 style='width:53.05pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=61 style='width:45.75pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=61 style='width:45.4pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8;mso-yfti-lastrow:yes'>
+  <td width=127 style='width:95.6pt;border:solid windowtext 1.0pt;border-top:
+  none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#CCFFFF;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'><a
+  href="#_3.7_MiWi™_DE">MiWi™ DE</a><o:p></o:p></span></p>
+  </td>
+  <td width=73 style='width:54.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:#CCFFCC;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>3.1.4<o:p></o:p></span></p>
+  </td>
+  <td width=73 style='width:54.85pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;background:silver;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>-<o:p></o:p></span></p>
+  </td>
+  <td width=69 style='width:52.0pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=69 style='width:51.5pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=71 style='width:53.05pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=61 style='width:45.75pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+  <td width=61 style='width:45.4pt;border-top:none;border-left:none;border-bottom:
+  solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-family:Arial;mso-fareast-font-family:SimSun'>x<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none'><a
+name="_3.1_MCHPFSUSB_Framework"></a><span style='font-family:Arial;mso-fareast-font-family:
+"Times New Roman";mso-fareast-language:EN-US'>A new project, ‘Combo – Graphics
+TCPIP Demo’, is added showing an example of using the Graphics and TCPIP
+libraries together.<o:p></o:p></span></p>
+
+<h2><span style='mso-fareast-language:EN-US'>3.1 MCHPFSUSB Framework<o:p></o:p></span></h2>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo1;tab-stops:list .5in'><span style='mso-fareast-font-family:
+     "Times New Roman";mso-fareast-language:EN-US'>Device <o:p></o:p></span></li>
+ <ul type=circle>
+  <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+      auto;mso-list:l1 level2 lfo1;tab-stops:list 1.0in'><span
+      style='mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+      EN-US'>Bug fixes and enhancements<o:p></o:p></span></li>
+ </ul>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo1;tab-stops:list .5in'><span style='mso-fareast-font-family:
+     "Times New Roman";mso-fareast-language:EN-US'>Host/OTG/Dual Role <o:p></o:p></span></li>
+ <ul type=circle>
+  <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+      auto;mso-list:l1 level2 lfo1;tab-stops:list 1.0in'><span
+      style='mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+      EN-US'>Bug fixes and enhancements <o:p></o:p></span></li>
+ </ul>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo1;tab-stops:list .5in'><span style='mso-fareast-font-family:
+     "Times New Roman";mso-fareast-language:EN-US'>PC Utilities <o:p></o:p></span></li>
+ <ul type=circle>
+  <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+      auto;mso-list:l1 level2 lfo1;tab-stops:list 1.0in'><span
+      style='mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+      EN-US'>Example showing how to remove/uninstall devices that are no longer
+      attached to the computer <o:p></o:p></span></li>
+  <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+      auto;mso-list:l1 level2 lfo1;tab-stops:list 1.0in'><span
+      style='mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+      EN-US'>Updated some of the projects to compile with the .net 2010 Express
+      tool set. <o:p></o:p></span></li>
+ </ul>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo1;tab-stops:list .5in'><span style='mso-fareast-font-family:
+     "Times New Roman";mso-fareast-language:EN-US'>New product support<o:p></o:p></span></li>
+ <ul type=circle>
+  <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+      auto;mso-list:l1 level2 lfo1;tab-stops:list 1.0in'><span
+      style='mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+      EN-US'>PIC24FJ256DA210 family<o:p></o:p></span></li>
+  <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+      auto;mso-list:l1 level2 lfo1;tab-stops:list 1.0in'><span
+      style='mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+      EN-US'>PIC24FJ256GB210 family<o:p></o:p></span></li>
+ </ul>
+</ul>
+
+<p class=MsoNormal style='mso-layout-grid-align:none'><span style='font-family:
+Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:EN-US'>For
+more information about the specific changes in this revision, please refer to
+the Revision History section of the MCHPFSUSB Library Help file available in
+the library download.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<h2><a name="_3.2_Graphics_Library"></a><span style='mso-fareast-language:EN-US'>3.2
+Graphics Library<o:p></o:p></span></h2>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l2 level1 lfo2;tab-stops:list .5in'><span
+     style='font-family:Arial;mso-fareast-font-family:"Times New Roman";
+     mso-fareast-language:EN-US'>Added IPU and CHRGPU support for
+     PIC24FJ256DA210 device family.<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l2 level1 lfo2;tab-stops:list .5in'><span
+     style='font-family:Arial;mso-fareast-font-family:"Times New Roman";
+     mso-fareast-language:EN-US'>Ported Graphics Resource Converter to <span
+     class=GramE>Java,</span> also added a number of enhancements.<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none'><span style='font-family:
+Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:EN-US'>For
+more information about the specific changes in this revision, please refer to
+the detailed release notes in the Graphics Library Help file available in the
+library download.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<h2><a name="_3.3_MDD_Library"></a><span style='mso-fareast-language:EN-US'>3.3
+MDD Library<o:p></o:p></span></h2>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l5 level1 lfo3;tab-stops:list .5in;
+     mso-layout-grid-align:none;text-autospace:none'><span style='font-family:
+     Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:EN-US'>Bug
+     fixes<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<h2><a name="_3.4_TCP/IP_Stack"></a><span style='mso-fareast-language:EN-US'>3.4
+TCP/IP Stack<o:p></o:p></span></h2>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l5 level1 lfo3;tab-stops:list .5in;
+     mso-layout-grid-align:none;text-autospace:none'><span style='font-family:
+     Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:EN-US'>Added
+     SNMP v3 Protocol Support<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none'><span style='font-family:
+Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:EN-US'>For
+more information about the specific changes in this revision, please refer to
+the detailed release notes in the TCPIP Stack Help file available in the
+library download.<o:p></o:p></span></p>
+
+<h2><a name="_3.5_mTouchCap_Library"></a><span style='mso-fareast-language:
+EN-US'>3.5 <span class=SpellE>mTouchCap</span> Library<o:p></o:p></span></h2>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l7 level1 lfo4;tab-stops:list .5in;
+     mso-layout-grid-align:none;text-autospace:none'><span style='font-family:
+     Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:EN-US'>Library
+     structure enhanced to instantiate multiple demos in the same application,
+     such as many 2-channel sliders, many direct keys etc in the same application.
+     <o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-list:l7 level1 lfo4;tab-stops:list .5in;
+     mso-layout-grid-align:none;text-autospace:none'><span style='font-family:
+     Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:EN-US'>Added
+     new demos: <o:p></o:p></span></li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l7 level2 lfo4;tab-stops:list 1.0in;
+      mso-layout-grid-align:none;text-autospace:none'><span style='font-family:
+      Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+      EN-US'>Proximity sensing using CTMU<o:p></o:p></span></li>
+  <li class=MsoNormal style='mso-list:l7 level2 lfo4;tab-stops:list 1.0in;
+      mso-layout-grid-align:none;text-autospace:none'><span style='font-family:
+      Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+      EN-US'>Swipe gesture detection using CTMU<o:p></o:p></span></li>
+  <li class=MsoNormal style='mso-list:l7 level2 lfo4;tab-stops:list 1.0in;
+      mso-layout-grid-align:none;text-autospace:none'><span style='font-family:
+      Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+      EN-US'>Demo integrating <span class=SpellE>mTouch</span> + GFX library
+      for PIC24FJ256DA210 family<o:p></o:p></span></li>
+  <li class=MsoNormal style='mso-list:l7 level2 lfo4;tab-stops:list 1.0in;
+      mso-layout-grid-align:none;text-autospace:none'><span class=SpellE><span
+      style='font-family:Arial;mso-fareast-font-family:"Times New Roman";
+      mso-fareast-language:EN-US'>mTouch</span></span><span style='font-family:
+      Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+      EN-US'> + USB stack demo to work with <span class=SpellE>mTouch</span>
+      Diagnostics tool<o:p></o:p></span></li>
+ </ul>
+</ul>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l6 level1 lfo5;tab-stops:list .5in;
+     mso-layout-grid-align:none;text-autospace:none'><span style='font-family:
+     Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:EN-US'>Improved
+     the linearity of 2-ch and 4-ch sliders<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal style='text-indent:.5in;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Arial;mso-fareast-font-family:
+"Times New Roman";mso-fareast-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<h2><a name="_3.6_Smart_Card"></a><span style='mso-fareast-language:EN-US'>3.6
+Smart Card Library<o:p></o:p></span></h2>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l6 level1 lfo5;tab-stops:list .5in;
+     mso-layout-grid-align:none;text-autospace:none'><span style='font-family:
+     Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:EN-US'>Improvements
+     and fixes<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal style='mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:
+EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<h2><a name="_3.7_MiWi™_DE"></a><span style='mso-fareast-language:EN-US'>3.7
+MiWi™ DE<o:p></o:p></span></h2>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l6 level1 lfo5;tab-stops:list .5in;
+     mso-layout-grid-align:none;text-autospace:none'><span style='font-family:
+     Arial;mso-fareast-font-family:"Times New Roman";mso-fareast-language:EN-US'>New
+     addition to MAL<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+<h1><a name="_Toc234048529"></a><a name="_Toc273011672"><span style='mso-bookmark:
+_Toc234048529'>4. Customer Support</span></a></h1>
+
+<h2><a name="_Toc175736817">The Microchip Web Site</a></h2>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+style='font-family:Arial'>Microchip provides online support via our web site at
+<a href="http://www.microchip.com/">http://www.microchip.com</a>. This web site
+is used as a means to make files and information easily available to customers.
+Accessible by using your favorite Internet browser, the web site contains the
+following information:<o:p></o:p></span></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo6;tab-stops:list .5in'><span style='font-family:
+     Arial'>Product Support - Data sheets and errata, application notes and
+     sample programs, design resources, user's guides and hardware support
+     documents, latest software releases and archived software<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo6;tab-stops:list .5in'><span style='font-family:
+     Arial'>General Technical Support - Frequently Asked Questions (<span
+     class=SpellE>FAQs</span>), technical support requests (<a
+     href="http://support.microchip.com/">http://support.microchip.com</a>),
+     online discussion groups/forums (<a href="http://forum.microchip.com/">http://forum.microchip.com</a>),
+     Microchip consultant program member listing<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo6;tab-stops:list .5in'><span style='font-family:
+     Arial'>Business of Microchip - Product selector and ordering guides,
+     latest Microchip press releases, listing of seminars and events, listings
+     of Microchip sales offices, distributors and factory representatives<o:p></o:p></span></li>
+</ul>
+
+<h2><a name="_Toc175736818">Development Systems Customer Change Notification Service</a></h2>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+style='font-family:Arial'>Microchip's customer notification service helps keep
+customers current on Microchip products. Subscribers will receive e-mail
+notification whenever there are changes, updates, revisions or errata related
+to a specified product family or development tool of interest.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+style='font-family:Arial'>To register, access the Microchip web site at
+www.microchip.com, click on Customer Change Notification and follow the
+registration instructions.<o:p></o:p></span></p>
+
+<h2><a name="_Toc175736819">Additional Support</a></h2>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+style='font-family:Arial'>Users of Microchip products can receive assistance
+through several channels:<o:p></o:p></span></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l3 level1 lfo7;tab-stops:list .5in'><span style='font-family:
+     Arial'>Distributor or Representative<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l3 level1 lfo7;tab-stops:list .5in'><span style='font-family:
+     Arial'>Local Sales Office<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l3 level1 lfo7;tab-stops:list .5in'><span style='font-family:
+     Arial'>Field Application Engineer (FAE)<o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l3 level1 lfo7;tab-stops:list .5in'><span style='font-family:
+     Arial'>Technical Support<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+style='font-family:Arial'>Customers should contact their distributor,
+representative or field application engineer (FAE) for support. Local sales
+offices are also available to help customers. A listing of sales offices and
+locations is available on our website.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto'><span
+style='font-family:Arial'>Technical support is available through the web site
+at: <a href="http://support.microchip.com/">http://support.microchip.com</a><a
+name="_Toc163987715"></a><a name="License_Agreements"></a><o:p></o:p></span></p>
+
+<h2><a name="_Toc175736820">Training</a></h2>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo8;tab-stops:list .5in'><span style='font-family:
+     Arial'>Regional Training Centers: <a href="http://www.microchip.com/rtc">http://www.microchip.com/rtc</a><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo8;tab-stops:list .5in'><span class=SpellE><span
+     style='font-family:Arial'>MASTERs</span></span><span style='font-family:
+     Arial'> Conference: <a href="http://www.microchip.com/masters">http://www.microchip.com/masters</a><o:p></o:p></span></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l4 level1 lfo8;tab-stops:list .5in'><span class=SpellE><span
+     style='font-family:Arial'>Webseminars</span></span><span style='font-family:
+     Arial'>: <a
+     href="http://techtrain.microchip.com/webseminars/QuickList.aspx">http://techtrain.microchip.com/webseminars/QuickList.aspx</a><o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><o:p>&nbsp;</o:p></b></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Trademarks:<o:p></o:p></b></p>
+
+<p class=MsoNormal><i><span style='font-size:8.0pt;color:black'>The Microchip
+name and logo, the Microchip logo, MPLAB, and PIC are registered trademarks of
+Microchip Technology Incorporated in the <st1:country-region w:st="on"><st1:place
+ w:st="on">U.S.A.</st1:place></st1:country-region> and other countries.</span></i></p>
+
+<p class=MsoNormal><span style='font-family:Arial'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
