@@ -1,2 +1,2 @@
 # TFG
-Design and deploymend of a cognitive wireless sensor network's test-bed
+Design and deployment of a cognitive wireless sensor network's test-bed
